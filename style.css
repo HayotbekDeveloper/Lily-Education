@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* Universal_codes */
+
+h3,
+p ,
+ul {
+    margin-bottom: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.mainWork-mt,
+.courses-mt,
+.mentor-mt,
+.blog-mt {
+    margin-top: 50px;
+}
+
+img,
+video,
+svg {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bgBlue {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    background-color: #f17e01;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+h2.title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #000000;
+    display: inline-block;
+}
+
+p.title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #555555;
+}
+
+h3.FooterText{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+/* header_starting */
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+header .navbar {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 1111;
+    box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.2);
+}
+
+header .navbar .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    transition: .6s;
+}
+
+header .navbar .navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+header .navbar .navbar-brand img {
+    width: 90px;
+}
+
+header .navbar .navbar-collapse {
+    flex-grow: 0;
+}
+
+header .navbar .navbar-toggler{
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+header .navbar .navbar-toggler span{
+    color: #f17e01;
+}
+
+header .navbar .navbar-toggler:hover{
+    box-shadow: unset;
+}
+
+header .navbar .navbar-collapse .navbar-nav{
+    flex-direction: row;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item {
+    margin-left: 45px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+    color: #f17e01;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #222222;
+    padding: 0;
+}
+
+header .header_title {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    background: url("./img/image.png") no-repeat center / cover;
+}
+
+header .header_title h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 73px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+header .header_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 54px;
+}
+
+header .header_hero_sm{
+    display: none;
+}
+
+header .header_hero {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    bottom: -11%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 40px 0px;
+    justify-content: center;
+}
+
+header .header_hero .header_hero_card {
+    display: flex;
+    align-items: center;
+}
+
+header .header_hero .header_hero_card svg path {
+    fill: #f17e01;
+}
+
+header .header_hero .header_hero_card .header_hero_card_text {
+    margin-left: 25px;
+}
+
+header .header_hero .header_hero_card .header_hero_card_text h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+header .header_hero .header_hero_card .header_hero_card_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #f17e01;
+}
+
+/* header_end */
+
+/* main_starting */
+main {
+    width: 100%;
+    padding-top: 225px;
+    overflow: hidden;
+}
+
+main .lorem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+/* main_end */
+
+/* section_starting */
+section {
+    width: 100%;
+    margin-top: 130px;
+}
+
+section .mainWork {
+    text-align: center;
+}
+
+section .mainWork svg path {
+    fill: #f17e01;
+}
+
+section .mainWork h3 {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+section .mainWork p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555555;
+}
+
+section .courses {
+    width: 100%;
+    margin-top: 130px;
+    background-color: #f17e01;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+section .courses h2.title,
+section .courses p.title {
+    color: white;
+}
+
+section .courses .coursesBox {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+section .courses .coursesBox .BG {
+    width: 386px;
+}
+
+section .courses .coursesBox .coursesText {
+    margin-top: 20px;
+}
+
+section .courses .coursesBox .coursesText h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+section .courses .coursesBox .coursesText h3 span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+    color: #f17e01;
+}
+
+section .courses .coursesBox .coursesText .coursesDesc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555555;
+    text-align: left;
+}
+
+section .courses .bgBlue {
+    margin-top: 20px;
+    color: #f17e01;
+    background-color: #FFFFFF;
+}
+
+section .mentor {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+section .mentor .Mentorpic {
+    box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+section .mentor .Mentorpic img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+section .mentor .Mentorpic .MentorpicText {
+    margin-left: 32px;
+    text-align: left;
+}
+
+section .mentor .Mentorpic .MentorpicText h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+section .mentor .Mentorpic .MentorpicText p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    padding-bottom: 25px;
+}
+
+section .country {
+    margin-top: 130px;
+    background-color: #f17e01;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+section .country h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+section .country p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .8);
+}
+
+section .blog {
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+section .blog .blogPic {
+    border: 0.5px solid #BFBFBF;
+    border-radius: 4px;
+    padding-bottom: 30px;
+}
+
+section .blog .blogPic img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+section .blog .blogPic .blogText {
+    margin-left: 20px;
+    text-align: left;
+}
+
+section .blog .blogPic .blogText h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+section .blog .blogPic .blogText p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    margin-bottom: 25px;
+}
+
+section .blog .blogPic .blogText a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f17e01;
+
+}
+
+section .blog .bgBlue {
+    margin-top: 40px;
+}
+
+section .students_say {
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+section .students_say .students_say_card .studentcardText{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+    text-align: left;
+    border: 0.5px solid #BFBFBF;
+    border-radius: 6px;
+    margin-top: 42px;
+    margin-right: 20px;
+}
+
+section .students_say .students_say_card .studentcardText .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+section .students_say .students_say_card .studentcardText .studentcardImg{
+    display: flex;
+    align-items: center;
+}
+
+section .students_say .students_say_card .studentcardText .studentcardImg .job{
+    margin-left: 15px;
+}
+
+section .students_say .students_say_card .studentcardText .studentcardImg .job .name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+section .students_say .students_say_card .studentcardText .studentcardImg .job .jobs{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555555;
+}
+/* section_end */
+
+/* footer_starting */
+footer{
+    width: 100%;
+    margin-top: 130px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #f17e01;
+    overflow: hidden;
+}
+
+footer .FooterAbout{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .9);
+    margin-bottom: 32px;
+}
+
+footer .social_media a{
+    padding: 15px 19px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+footer .social_media a i{
+    font-size: 18px;
+    color: #f17e01;
+}
+
+footer ul li{
+    margin-bottom: 15px;
+}
+
+footer ul li a i{
+    margin-right: 10px;
+    color: rgba(255, 255, 255, .8);
+}
+
+footer ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+footer ul li a:hover{
+    color: #FFFFFF;
+}
+/* footer_end */
+
+/* xxl 1600px --- cheksiz*/
+
+/* xl 1600px --- 1200px */
+
+/* lg 1199px --- 992px*/
+
+/* md 991px --- 768px*/
+    @media (max-width: 992px) {
+        header .navbar .navbar-collapse .navbar-nav{
+            margin-top: 20px;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-item{
+            margin-left: 0;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
+            margin-right: 30px;
+        }
+        header .header_hero{
+            width: 70%;
+        }
+        header .header_hero .header_hero_card:first-of-type{
+            margin-bottom: 20px;
+        }
+        main{
+            padding-top: 200px;
+        }
+        section{
+            margin-top: 90px;
+        }
+        section .courses{
+            margin-top: 90px;
+        }
+        section .mentor .Mentorpic .MentorpicText{
+            margin-left: 10px;
+        }
+        section .country{
+            margin-top: 90px;
+        }
+        section .blog{
+            margin-top: 90px;
+        }
+        section .blog .blogPic{
+            margin-bottom: 25px;
+        }
+        section .students_say{
+            margin-top: 90px;
+        }
+        .slick-slider{
+            width: 70% !important;
+        }
+        section .students_say .students_say_card{
+            display: inline-block;
+        }
+        section .students_say .students_say_card .studentcardText{
+            margin-top: 20px;
+        }
+        footer{
+            margin-top: 90px;
+            padding-bottom: 30px;
+        }
+        footer .social_media{
+            margin-bottom: 30px;
+        }
+    }
+/* sm 767px --- 576*/
+    @media (max-width: 767px) {
+        .mb-30{
+            margin-bottom: 30px;
+        }
+        header .header_title{
+            padding-top: 120px;
+            padding-bottom: 40px;
+        }
+        header .header_title h1{
+            font-size: 36px;
+            line-height: 40px;
+        }
+        header .header_hero{
+            display: none;
+        }
+        header .header_hero_sm{
+            display: block;
+        }
+        header .header_hero_sm {
+            width: 100%;
+            padding: 40px 0px;
+            justify-content: center;
+        }
+        header .header_hero_sm .header_hero_card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        header .header_hero_sm .header_hero_card svg path {
+            fill: #f17e01;
+        }
+        header .header_hero_sm .header_hero_card .header_hero_card_text {
+            margin-left: 25px;
+        }
+        header .header_hero_sm .header_hero_card .header_hero_card_text h3 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 47px;
+            color: #222222;
+            margin-bottom: 8px;
+        }
+        header .header_hero_sm .header_hero_card .header_hero_card_text p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #f17e01;
+        }
+        main{
+            padding-top: 0;
+        }
+        section ,
+        section .courses ,
+        section .country ,
+        section .blog ,
+        section .students_say {
+            margin-top: 40px;
+        }
+        section .courses{
+            padding: 40px 0px;
+        }
+        .mainWork-mt, .courses-mt, .mentor-mt, .blog-mt{
+            margin-top: 30px;
+        }
+        section .courses .coursesBox .coursesText h3{
+            font-size: 20px;
+        }
+        section .courses .coursesBox .coursesText h3 span{
+            font-size: 22px;
+        }
+        section .blog .blogPic img{
+            margin-bottom: 15px;
+        }
+        section .blog .blogPic .blogText{
+            margin-left: 10px;
+        }
+        section .blog .blogPic .blogText h3{
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        section .blog .blogPic .blogText p{
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        section .blog .bgBlue{
+            margin-top: 20px;
+        }
+    }
+
+/* col 575px --- 320px */
+    @media (max-width: 575px) {
+        h2.title{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
+            margin-right: 14px;
+        }
+        header .header_title h1{
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        header .header_title p{
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+        header .header_hero_sm{
+            padding: 20px 0px;
+        }
+        header .header_hero_sm .header_hero_card{
+            justify-content: center;
+        }
+        section .mainWork p{
+            font-size: 10px;
+            line-height: 20px;
+        }
+        .mb-col{
+            margin-bottom: 30px;
+        }
+        section .country{
+            padding: 30px 0px;
+        }
+        .slick-slider{
+            width: 100% !important;
+        }
+        section .students_say .students_say_card .studentcardText{
+            margin-right: 0;
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 30px;
+        }
+    }
