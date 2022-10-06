@@ -9,12 +9,12 @@
 /* Universal_codes */
 
 h3,
-p ,
+p,
 ul {
     margin-bottom: 0;
 }
 
-ul{
+ul {
     padding-left: 0;
 }
 
@@ -31,6 +31,10 @@ svg {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+a:hover{
+    color: #FFFFFF;
 }
 
 body {
@@ -65,7 +69,7 @@ p.title {
     color: #555555;
 }
 
-h3.FooterText{
+h3.FooterText {
     font-weight: 700;
     font-size: 30px;
     line-height: 39px;
@@ -108,20 +112,20 @@ header .navbar .navbar-collapse {
     flex-grow: 0;
 }
 
-header .navbar .navbar-toggler{
+header .navbar .navbar-toggler {
     padding: 0;
     font-size: 1.5rem;
 }
 
-header .navbar .navbar-toggler span{
+header .navbar .navbar-toggler span {
     color: #f17e01;
 }
 
-header .navbar .navbar-toggler:hover{
+header .navbar .navbar-toggler:hover {
     box-shadow: unset;
 }
 
-header .navbar .navbar-collapse .navbar-nav{
+header .navbar .navbar-collapse .navbar-nav {
     flex-direction: row;
 }
 
@@ -145,7 +149,7 @@ header .header_title {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 280px;
-    background: url("./img/image.png") no-repeat center / cover;
+    background: url("./img/image\(1\).png") no-repeat center / cover;
 }
 
 header .header_title h1 {
@@ -164,7 +168,7 @@ header .header_title p {
     margin-bottom: 54px;
 }
 
-header .header_hero_sm{
+header .header_hero_sm {
     display: none;
 }
 
@@ -444,7 +448,7 @@ section .students_say {
     text-align: center;
 }
 
-section .students_say .students_say_card .studentcardText{
+section .students_say .students_say_card .studentcardText {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 25px;
@@ -456,7 +460,7 @@ section .students_say .students_say_card .studentcardText{
     margin-right: 20px;
 }
 
-section .students_say .students_say_card .studentcardText .text{
+section .students_say .students_say_card .studentcardText .text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -464,16 +468,16 @@ section .students_say .students_say_card .studentcardText .text{
     margin-bottom: 20px;
 }
 
-section .students_say .students_say_card .studentcardText .studentcardImg{
+section .students_say .students_say_card .studentcardText .studentcardImg {
     display: flex;
     align-items: center;
 }
 
-section .students_say .students_say_card .studentcardText .studentcardImg .job{
+section .students_say .students_say_card .studentcardText .studentcardImg .job {
     margin-left: 15px;
 }
 
-section .students_say .students_say_card .studentcardText .studentcardImg .job .name{
+section .students_say .students_say_card .studentcardText .studentcardImg .job .name {
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -481,16 +485,73 @@ section .students_say .students_say_card .studentcardText .studentcardImg .job .
     margin-bottom: 10px;
 }
 
-section .students_say .students_say_card .studentcardText .studentcardImg .job .jobs{
+section .students_say .students_say_card .studentcardText .studentcardImg .job .jobs {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #555555;
 }
+
+section .subscibe {
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+section .subscibe .sub_form {
+    background-color: #f17e01;
+    padding: 60px 0px;
+}
+
+section .subscibe .sub_form .title{
+    color: #FFFFFF;
+}
+
+section .subscibe .sub_form .register{
+    margin-top: 40px;
+}
+
+section .subscibe .sub_form .register form input ,
+section .subscibe .sub_form form input{
+    padding: 21px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #f17e01;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+}
+
+section .subscibe .sub_form .register form input::placeholder ,
+section .subscibe .sub_form form input::placeholder {
+    color: #f17e01;
+}
+
+section .subscibe .sub_form .register form input:focus ,
+section .subscibe .sub_form form input:focus{
+    outline: unset;
+}
+
+section .subscibe .sub_form .register form input:first-of-type ,
+section .subscibe .sub_form .register form input:nth-of-type(2){
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+section .subscibe .sub_form  form .bgBlue{
+    width: 10%;
+    color: #f17e01;
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+}
+
 /* section_end */
 
 /* footer_starting */
-footer{
+footer {
     width: 100%;
     margin-top: 130px;
     padding-top: 60px;
@@ -499,7 +560,7 @@ footer{
     overflow: hidden;
 }
 
-footer .FooterAbout{
+footer .FooterAbout {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -507,37 +568,38 @@ footer .FooterAbout{
     margin-bottom: 32px;
 }
 
-footer .social_media a{
+footer .social_media a {
     padding: 15px 19px;
     background-color: #FFFFFF;
     border-radius: 4px;
     margin-right: 15px;
 }
 
-footer .social_media a i{
+footer .social_media a i {
     font-size: 18px;
     color: #f17e01;
 }
 
-footer ul li{
+footer ul li {
     margin-bottom: 15px;
 }
 
-footer ul li a i{
+footer ul li a i {
     margin-right: 10px;
     color: rgba(255, 255, 255, .8);
 }
 
-footer ul li a{
+footer ul li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
     color: #FFFFFF;
 }
+
 /* footer_end */
 
 /* xxl 1600px --- cheksiz*/
@@ -547,194 +609,275 @@ footer ul li a:hover{
 /* lg 1199px --- 992px*/
 
 /* md 991px --- 768px*/
-    @media (max-width: 992px) {
-        header .navbar .navbar-collapse .navbar-nav{
-            margin-top: 20px;
-        }
-        header .navbar .navbar-collapse .navbar-nav .nav-item{
-            margin-left: 0;
-        }
-        header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
-            margin-right: 30px;
-        }
-        header .header_hero{
-            width: 70%;
-        }
-        header .header_hero .header_hero_card:first-of-type{
-            margin-bottom: 20px;
-        }
-        main{
-            padding-top: 200px;
-        }
-        section{
-            margin-top: 90px;
-        }
-        section .courses{
-            margin-top: 90px;
-        }
-        section .mentor .Mentorpic .MentorpicText{
-            margin-left: 10px;
-        }
-        section .country{
-            margin-top: 90px;
-        }
-        section .blog{
-            margin-top: 90px;
-        }
-        section .blog .blogPic{
-            margin-bottom: 25px;
-        }
-        section .students_say{
-            margin-top: 90px;
-        }
-        .slick-slider{
-            width: 70% !important;
-        }
-        section .students_say .students_say_card{
-            display: inline-block;
-        }
-        section .students_say .students_say_card .studentcardText{
-            margin-top: 20px;
-        }
-        footer{
-            margin-top: 90px;
-            padding-bottom: 30px;
-        }
-        footer .social_media{
-            margin-bottom: 30px;
-        }
-    }
-/* sm 767px --- 576*/
-    @media (max-width: 767px) {
-        .mb-30{
-            margin-bottom: 30px;
-        }
-        header .header_title{
-            padding-top: 120px;
-            padding-bottom: 40px;
-        }
-        header .header_title h1{
-            font-size: 36px;
-            line-height: 40px;
-        }
-        header .header_hero{
-            display: none;
-        }
-        header .header_hero_sm{
-            display: block;
-        }
-        header .header_hero_sm {
-            width: 100%;
-            padding: 40px 0px;
-            justify-content: center;
-        }
-        header .header_hero_sm .header_hero_card {
-            display: flex;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-        header .header_hero_sm .header_hero_card svg path {
-            fill: #f17e01;
-        }
-        header .header_hero_sm .header_hero_card .header_hero_card_text {
-            margin-left: 25px;
-        }
-        header .header_hero_sm .header_hero_card .header_hero_card_text h3 {
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 47px;
-            color: #222222;
-            margin-bottom: 8px;
-        }
-        header .header_hero_sm .header_hero_card .header_hero_card_text p{
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            color: #f17e01;
-        }
-        main{
-            padding-top: 0;
-        }
-        section ,
-        section .courses ,
-        section .country ,
-        section .blog ,
-        section .students_say {
-            margin-top: 40px;
-        }
-        section .courses{
-            padding: 40px 0px;
-        }
-        .mainWork-mt, .courses-mt, .mentor-mt, .blog-mt{
-            margin-top: 30px;
-        }
-        section .courses .coursesBox .coursesText h3{
-            font-size: 20px;
-        }
-        section .courses .coursesBox .coursesText h3 span{
-            font-size: 22px;
-        }
-        section .blog .blogPic img{
-            margin-bottom: 15px;
-        }
-        section .blog .blogPic .blogText{
-            margin-left: 10px;
-        }
-        section .blog .blogPic .blogText h3{
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-        section .blog .blogPic .blogText p{
-            font-size: 10px;
-            margin-bottom: 10px;
-        }
-        section .blog .bgBlue{
-            margin-top: 20px;
-        }
+@media (max-width: 992px) {
+    header .navbar .navbar-collapse .navbar-nav {
+        margin-top: 20px;
     }
 
-/* col 575px --- 320px */
-    @media (max-width: 575px) {
-        h2.title{
-            font-size: 25px;
-            line-height: 30px;
-        }
-        header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
-            margin-right: 14px;
-        }
-        header .header_title h1{
-            font-size: 30px;
-            margin-bottom: 15px;
-        }
-        header .header_title p{
-            font-size: 14px;
-            line-height: 24px;
-            margin-bottom: 40px;
-        }
-        header .header_hero_sm{
-            padding: 20px 0px;
-        }
-        header .header_hero_sm .header_hero_card{
-            justify-content: center;
-        }
-        section .mainWork p{
-            font-size: 10px;
-            line-height: 20px;
-        }
-        .mb-col{
-            margin-bottom: 30px;
-        }
-        section .country{
-            padding: 30px 0px;
-        }
-        .slick-slider{
-            width: 100% !important;
-        }
-        section .students_say .students_say_card .studentcardText{
-            margin-right: 0;
-        }
-        footer {
-            margin-top: 30px;
-            padding-top: 30px;
-        }
+    header .navbar .navbar-collapse .navbar-nav .nav-item {
+        margin-left: 0;
     }
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type) {
+        margin-right: 30px;
+    }
+
+    header .header_hero {
+        width: 70%;
+    }
+
+    header .header_hero .header_hero_card:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+    section {
+        margin-top: 90px;
+    }
+
+    section .courses {
+        margin-top: 90px;
+    }
+
+    section .mentor .Mentorpic .MentorpicText {
+        margin-left: 10px;
+    }
+
+    section .country {
+        margin-top: 90px;
+    }
+
+    section .blog {
+        margin-top: 90px;
+    }
+
+    section .blog .blogPic {
+        margin-bottom: 25px;
+    }
+
+    section .students_say {
+        margin-top: 90px;
+    }
+
+    .slick-slider {
+        width: 70% !important;
+    }
+
+    section .students_say .students_say_card {
+        display: inline-block;
+    }
+
+    section .students_say .students_say_card .studentcardText {
+        margin-top: 20px;
+    }
+
+    section .subscibe .sub_form{
+        padding: 50px 10px;
+    }
+
+    section .subscibe .sub_form .register form input:first-of-type, section .subscibe .sub_form .register form input:nth-of-type(2){
+        margin-right: 20px;
+    }
+
+    section .subscibe .sub_form form .bgBlue{
+        width: 20%;
+    }
+
+    footer {
+        margin-top: 90px;
+        padding-bottom: 30px;
+    }
+
+    footer .social_media {
+        margin-bottom: 30px;
+    }
+}
+
+/* sm 767px --- 576*/
+@media (max-width: 767px) {
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    header .header_title {
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+
+    header .header_title h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    header .header_hero {
+        display: none;
+    }
+
+    header .header_hero_sm {
+        display: block;
+    }
+
+    header .header_hero_sm {
+        width: 100%;
+        padding: 40px 0px;
+        justify-content: center;
+    }
+
+    header .header_hero_sm .header_hero_card {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    header .header_hero_sm .header_hero_card svg path {
+        fill: #f17e01;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text {
+        margin-left: 25px;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47px;
+        color: #222222;
+        margin-bottom: 8px;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #f17e01;
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    section,
+    section .courses,
+    section .country,
+    section .blog,
+    section .students_say {
+        margin-top: 40px;
+    }
+
+    section .courses {
+        padding: 40px 0px;
+    }
+
+    .mainWork-mt,
+    .courses-mt,
+    .mentor-mt,
+    .blog-mt {
+        margin-top: 30px;
+    }
+
+    section .courses .coursesBox .coursesText h3 {
+        font-size: 20px;
+    }
+
+    section .courses .coursesBox .coursesText h3 span {
+        font-size: 22px;
+    }
+
+    section .blog .blogPic img {
+        margin-bottom: 15px;
+    }
+
+    section .blog .blogPic .blogText {
+        margin-left: 10px;
+    }
+
+    section .blog .blogPic .blogText h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    section .blog .blogPic .blogText p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    section .blog .bgBlue {
+        margin-top: 20px;
+    }
+
+    section .subscibe .sub_form .register form input, section .subscibe .sub_form form input{
+        width: 100%;
+    }
+
+    section .subscibe .sub_form .register form input:first-of-type, section .subscibe .sub_form .register form input:nth-of-type(2){
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    section .subscibe .sub_form form .bgBlue{
+        margin-top: 20px;
+    }
+}
+
+/* col 575px --- 320px */
+@media (max-width: 575px) {
+    h2.title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type) {
+        margin-right: 14px;
+    }
+
+    header .header_title h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    header .header_title p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+
+    header .header_hero_sm {
+        padding: 20px 0px;
+    }
+
+    header .header_hero_sm .header_hero_card {
+        justify-content: center;
+    }
+
+    section .mainWork p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .mb-col {
+        margin-bottom: 30px;
+    }
+
+    section .country {
+        padding: 30px 0px;
+    }
+
+    .slick-slider {
+        width: 100% !important;
+    }
+
+    section .students_say .students_say_card .studentcardText {
+        margin-right: 0;
+    }
+
+    section .subscibe .sub_form form .bgBlue{
+        width: 35%;
+    }
+
+    footer {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+}
