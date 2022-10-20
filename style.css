@@ -174,7 +174,7 @@ header .header_hero_sm {
 }
 
 header .header_hero {
-    width: 80%;
+    width: 90%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%) !important;
@@ -542,6 +542,24 @@ footer ul li a:hover {
 /* xl 1600px --- 1200px */
 
 /* lg 1199px --- 992px*/
+@media (max-width: 1199px) {
+    header .header_title{
+        padding-top: 140px;
+    }
+    header .header_title h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    header .header_hero{
+        padding: 10px 0px;
+    }
+    header .header_hero .header_hero_card .header_hero_card_text h3{
+        font-size: 30px;
+    }
+    header .header_hero .header_hero_card .header_hero_card_text .header_hero_card_text_teachers{
+        font-size: 15px;
+    }
+}
 
 /* md 991px --- 768px*/
 @media (max-width: 992px) {
@@ -558,11 +576,45 @@ footer ul li a:hover {
     }
 
     header .header_hero {
-        width: 87%;
+        display: none;
     }
 
-    header .header_hero .header_hero_card:first-of-type {
-        margin-bottom: 20px;
+    header .header_hero_sm{
+        display: block;
+    }
+
+    header .header_hero_sm {
+        width: 100%;
+        padding: 40px 0px;
+        justify-content: center;
+    }
+
+    header .header_hero_sm .header_hero_card {
+        display: flex;
+        align-items: center;
+    }
+
+    header .header_hero_sm .header_hero_card svg path {
+        fill: #f17e01;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text {
+        margin-left: 25px;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47px;
+        color: #222222;
+        margin-bottom: 8px;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #f17e01;
     }
 
     main {
@@ -570,7 +622,7 @@ footer ul li a:hover {
     }
 
     section {
-        margin-top: 110px;
+        margin-top: 0px;
     }
 
     section .courses {
@@ -690,7 +742,6 @@ footer ul li a:hover {
         padding-top: 0;
     }
 
-    section,
     section .courses,
     section .country,
     section .blog,
@@ -776,6 +827,15 @@ footer ul li a:hover {
 
     header .header_hero_sm .header_hero_card {
         justify-content: center;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    header .header_hero_sm .header_hero_card .header_hero_card_text p{
+        font-size: 14px;
     }
 
     section .mainWork p {
