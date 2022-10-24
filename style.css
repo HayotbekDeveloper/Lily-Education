@@ -382,11 +382,10 @@ section .blog .blogPic .blogText a {
 section .students_say {
     width: 100%;
     margin-top: 130px;
-    text-align: center;
+    text-align: center
 }
 
 section .students_say .students_say_card .studentcardText {
-    text-align: left;
     border: 0.5px solid #BFBFBF;
     border-radius: 6px;
     margin-top: 42px;
@@ -569,6 +568,10 @@ footer ul li a:hover {
 
     header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type) {
         margin-right: 30px;
+    }
+
+    header .header_title{
+        padding-bottom: 60px;
     }
 
     header .header_hero {
@@ -757,7 +760,7 @@ footer ul li a:hover {
     }
 
     section .courses .coursesBox .coursesText h3 {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     section .courses .coursesBox .coursesText h3 span {
@@ -822,10 +825,6 @@ footer ul li a:hover {
         padding: 20px 0px;
     }
 
-    header .header_hero_sm .header_hero_card {
-        justify-content: center;
-    }
-
     header .header_hero_sm .header_hero_card .header_hero_card_text h3{
         font-size: 25px;
         line-height: 30px;
@@ -852,10 +851,17 @@ footer ul li a:hover {
         width: 100% !important;
     }
 
-    section .students_say .students_say_card .studentcardText {
-        margin-right: 0;
+    section .students_say .students_say_card{
+        width: 200px !important;
     }
 
+    section .students_say .students_say_card .studentcardText {
+        width: 200px !important;
+        margin-right: 0;
+    }
+    section .subscibe{
+        margin-top: 20px;
+    }
     section .subscibe .sub_form form .bgBlue{
         width: 47%;
     }
